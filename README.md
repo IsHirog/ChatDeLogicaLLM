@@ -4,13 +4,12 @@ Este projeto é uma aplicação web simples usando Flask e a API Gemini (Google 
 
 ## Descrição
 
-A aplicação permite ao usuário enviar uma expressão em linguagem natural, e a IA do Gemini irá gerar uma lógica proposicional correspondente, assim como uma dedução natural baseada nessa expressão. A resposta é exibida de forma formatada no navegador, com suporte para negrito e outros estilos de texto.
+A aplicação permite ao usuário enviar uma expressão em linguagem natural, e a IA do Gemini irá gerar uma lógica proposicional correspondente, assim como uma dedução natural baseada nessa expressão.
 
 ## Funcionalidades
 
 - Recebe uma expressão em linguagem natural do usuário.
 - Gera uma lógica proposicional e uma dedução natural.
-- Exibe a resposta de forma formatada (incluindo negrito).
 - Comunicação com a API Gemini da Google para processamento e geração de respostas.
 
 ## Tecnologias
@@ -52,8 +51,7 @@ A aplicação permite ao usuário enviar uma expressão em linguagem natural, e 
     ```
     http://127.0.0.1:5000/
     ```
+  IP padrão, mas o mesmo pode mudar a depender do computador ao executar o código app.py ele vai resultar um IP o qual deve ser utilizado.
 
 3. Interaja com a IA fornecendo uma expressão e veja a lógica proposicional e a dedução natural geradas.
-
-## Estrutura do Projeto
 
